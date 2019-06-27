@@ -1,0 +1,22 @@
+{
+    "actus": [
+      {
+        "id": 1,
+        "titre": "Read SitePoint article",
+        "description": "actu 1",
+        "dateDiffusion": "12/11/2015"
+      },
+      {
+        "id": 2,
+        "titre": "Clean inbox",
+        "description": "actu 2",
+        "dateDiffusion": "12/11/2015"
+      },
+      {
+        "id": 3,
+        "titre": "Make restaurant reservation",
+        "description": "actu 3",
+        "dateDiffusion": "12/11/2015"
+      }
+    ]
+  }

@@ -1,0 +1,7 @@
+<section class="main" *ngIf="actus.length > 0">
+    <ul class="actus-agenda-list">
+      <li *ngFor="let actu of actus">
+        <app-actus-agenda-list-item [actu]="actu"></app-actus-agenda-list-item>
+      </li>
+    </ul>
+  </section>
