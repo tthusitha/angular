@@ -16,7 +16,7 @@ export class ApiService {
 
   // API: GET /actus
   public getAllActusAgenda(): Observable<ActuAgenda[]> {
-    return this.http.get(API_URL + '/actus').pipe(map((res: Response) => {
+    return this.http.get(API_URL + '/actus').pipe(map((res: any) => {
       const actus = res.json();
       return actus.map((actu) => new ActuAgenda(actu));
     }));
